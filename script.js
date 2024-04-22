@@ -1,2 +1,3 @@
 let character = 'Hello';
-console.log(character)
+console.log(character);
+character = "World"
