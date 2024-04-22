@@ -4,7 +4,7 @@ const rows = [];
 
 for (let i = 0; i < count; i = i + 1) {
   rows.push(character);
-  character.repeat(i);
+  character.repeat(i + 1);
 }
 
 let result = ""
