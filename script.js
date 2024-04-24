@@ -15,7 +15,10 @@ let continueLoop = false;
 let done = 0;
 
 while (continueLoop) {
- done++; 
+  done++;
+  if (done == count) {
+    
+  }
 }
 
 
