@@ -7,8 +7,12 @@ function padRow(rowNumber, rowCount) {
 }
 
 //do a different kind of loop
-for (let i = 1; i <= count; i = i ++) {
+/*for (let i = 1; i <= count; i = i ++) {
   rows.push(padRow(i, count))
+}*/
+
+if (true) {
+  console.log("Condition is true");
 }
 
 let result = ""
