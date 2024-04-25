@@ -16,13 +16,13 @@ for (let i = 1; i <= count; i++) {
   }
 }
 
-/*while (rows.length < count) {
+while (rows.length < count) {
   rows.push(padRow(rows.length + 1, count));
-}*/
+}
 
-/*for (let i = count; i > 0; i--) {
+for (let i = count; i > 0; i--) {
   rows.unshift(padRow(i, count));
-}*/
+}
 
 
 for (const row of rows) {
